@@ -24,7 +24,7 @@
           <li><a href="#">Studio</a></li>
         </ul>
       </nav>
-      <img src="https://placekitten.com/1200/900" class="banner" alt="Four kittens sitting together in a basket">
+      <img src="https://placekitten.com/1200/900" class="banner" alt="One or many kittens, depending on what is provided by placekitten.com, a placeholder site.">
     </header>
     <main class="main-content">
       <h1>Welcome to Jam Box</h1>
@@ -49,10 +49,12 @@
       <aside class="contact-section">
         <h1>Contact Us</h1>
         <form action="thanks.html">
-          <label>Full Name</label>
-          <input type="text" placeholder="Full Name">
-          <input type="text" placeholder="Email">
-          <input type="text" placeholder="Subject">
+          <label for="fullname">Full Name</label>
+          <input type="text" placeholder="Full Name" id="fullname">
+          <label for="email">Email</label>
+          <input type="email" placeholder="Email" id="email">
+          <label for="subject">Subject</label>
+          <input id="subject" type="text" placeholder="Subject">
           <b>Your Message</b>
           <textarea></textarea>
           <button type="submit">Send</button>
